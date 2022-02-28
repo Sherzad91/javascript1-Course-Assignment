@@ -1,0 +1,79 @@
+li:hover {
+  cursor  : pointer;
+}
+.bodi{
+  background-color: aqua;
+
+}
+
+
+h4, h3 {
+  background-color: rgba(165, 42, 42, 0.87);
+  text-align: center;
+  padding: 5px;
+  margin-top: 50px;
+  color: white;
+  font-size: 30px;
+  cursor  : pointer;
+  
+  
+}
+h1{
+  background-color: rgba(165, 42, 42, 0.87);
+  text-align: center;
+  padding: 5px;
+  margin-top: 50px;
+  color: white;
+  font-size: 30px;
+}
+#contents{
+  color: black;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 15px;
+  font-size: 25px;
+  border: 25px solid red;
+}
+#nav{
+  width: 100%;
+}
+nav{
+ 
+  width: 100%;
+  height: 60px;
+  background-color: rgb(99, 7, 7);
+  display: flex;
+  flex-direction: row;
+ 
+}
+#logo{
+  text-decoration: none;
+  color: white;
+  font-size: 35px;
+  margin-top: 2px;
+  margin-left: 10px;
+}
+#logo:hover{
+ text-shadow: 1px 1px 10px rgb(233, 210, 121);
+ transition: 0.15s;
+}
+#nav nav ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 250px;
+}
+#nav nav ul li{
+  list-style: none;
+  margin: 30px;
+ 
+}
+#nav nav ul li a{
+   text-decoration: none;
+   color: white;
+   font-size: 25px;
+}
+#nav nav ul li a:hover{
+  text-shadow: 2px 2px 15px white;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/contact.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="nav">
+        <nav>
+           <a class="link" id="logo" href="./dettails.html">Course Assignment</a> 
+          <ul>
+         <li><a class="link" href="./dettails.html">Home</a> </li>
+         <li><a class="link" href="#">Contact</a></li>
+         </ul>
+        </nav>
+       </div>
+    <div class="all-message">
+        <form onsubmit="event.preventDefault();validateForm()">
+            <h1>Contact Us</h1>
+            <label for="name">Name</label>
+            <input type="text" placeholder="Name" id="name">
+            <small class="error " id="nameerror"></small>
+            <label for="email">Email</label>
+            <input type="text" placeholder="email" id="email">
+            <small class="error " id="emailerror"></small>
+            <label for="subMessage">subject</label>
+            <textarea id="subMessage" placeholder="message"></textarea>
+            <small class=" error " id="subjecterror"></small>
+            <div class=" center">
+                <input type="submit" value="send message">
+                <p id="supper"></p>
+            </div>
+        </form>
+        <img src="" id="img" width="200px">
+    </div>
+    <script src="./js/scriptcontact.js"></script>
+</body>
+
+</html>
